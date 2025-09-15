@@ -18,7 +18,7 @@ console.log(square(3));
 console.log("Завдання 6.3");
 
 function cube(a){
-    return a**3
+    return a**3;
 
 }
 console.log(cube(2));

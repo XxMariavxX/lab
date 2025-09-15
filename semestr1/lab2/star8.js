@@ -1,6 +1,6 @@
 "use strict";
 
-console.log('Завдання 8')
+console.log('Завдання 8');
 
 
 function createUser(name, city){

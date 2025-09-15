@@ -11,7 +11,8 @@ function findPhoneByName(name){
     for (const contact of array) { 
         if (contact.name === name){ 
             return contact.phone;
-        }
-    }
+        } 
+    }  
+
 }
 console.log(findPhoneByName("Olena"));
