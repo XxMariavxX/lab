@@ -1,5 +1,7 @@
+"use strict";
 console.dir("Завдання№2.1");
-let array = [
+
+const array = [
   1,
   4.5,
   -90,
@@ -19,7 +21,8 @@ let array = [
   0,
   123n,
 ];
-let f = {
+
+const f = {
   number: 0,
   string: 0,
   boolean: 0,
@@ -31,4 +34,5 @@ let f = {
 for (let i of array) {
   f[typeof i]++;
 }
+
 console.log(f);

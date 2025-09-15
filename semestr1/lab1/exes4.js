@@ -1,5 +1,7 @@
+"use strict";
 console.dir("Завдання№2.2");
-let array = [
+
+const array = [
   1,
   4.5,
   -90,
@@ -19,8 +21,10 @@ let array = [
   0,
   123n,
 ];
+
 const arr = {};
 for (let i of array) {
-  arr[typeof i] = arr[typeof i] ? arr[typeof i] + 1 : 1; // тернарний оператор ? якщо існує такий ключ, то збільшуємо на 1 інакше створюємо і присвоюємо 1
+  arr[typeof i] = arr[typeof i] ? arr[typeof i] + 1 : 1; // тернарний оператор ? якщо значення існує,  +1, ні додаємо до arr[typeof i] зі значенням 1 
 }
+
 console.log(arr);
