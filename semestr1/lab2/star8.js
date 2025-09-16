@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 console.log('Завдання 8');
 

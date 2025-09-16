@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 console.log("Завдання 6.1");
 function average(a, b){

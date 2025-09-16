@@ -1,25 +1,9 @@
-"use strict";
-console.dir("Завдання№2.2");
+'use strict';
+
+console.log("Завдання 2.2");
 
 const array = [
-  1,
-  4.5,
-  -90,
-  "yes",
-  true,
-  null,
-  undefined,
-  {},
-  [],
-  function () {},
-  "t",
-  45,
-  -3.6,
-  null,
-  undefined,
-  false,
-  0,
-  123n,
+  1, 4.5, -90, "yes", true, null, undefined, {}, [], function (){}, "t", 45, -3.6, null, undefined, false, 0, 123n,
 ];
 
 const arr = {};

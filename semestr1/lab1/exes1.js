@@ -1,4 +1,5 @@
-"use strict";
+'use strict';
+
 console.log("Завдання 1.1");
 
 const inc = n => n+1;
