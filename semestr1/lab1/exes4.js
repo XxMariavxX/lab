@@ -24,7 +24,7 @@ const array = [
 
 const arr = {};
 for (let i of array) {
-  arr[typeof i] = arr[typeof i] ? arr[typeof i] + 1 : 1; // тернарний оператор ? якщо значення існує,  +1, ні додаємо в об'єкт arr[typeof i] зі значенням 1 
+  arr[typeof i] = arr[typeof i] ? arr[typeof i] + 1 : 1; // тернарний оператор ? якщо значення існує,  +1, ні додаємо в об'єкт новий ключ arr[typeof i] зі значенням 1 
 }
 
 console.log(arr);
