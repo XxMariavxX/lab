@@ -2,4 +2,4 @@
 
  Project should cope with labs 
 
-                                                 I wish you a nice day  !
+  I wish you a nice day  !
