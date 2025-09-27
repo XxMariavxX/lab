@@ -16,6 +16,7 @@ const counter = {
   bigint: 0,
 };
 for (let i of array) {
+  const type = typeof null
   counter[typeof i]++;
 }
 

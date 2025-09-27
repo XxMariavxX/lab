@@ -1,6 +1,7 @@
 'use strict';
 
 console.log("Завдання 6.1");
+
 function average(a, b){
     return (a+b)/2;
 }
@@ -30,8 +31,8 @@ function calculate () {
     for (let i = 0; i < 10; i++) {
         let sq = square(i);
         let cb = cube(i);
-        let calculate = average(sq, cb);
-        arr.push(calculate);
+        let calcul = average(sq, cb);
+        arr.push(calcul);
     }
     return arr;
 }

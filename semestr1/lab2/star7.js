@@ -10,7 +10,9 @@ function fn() {
     objlet.name = "Olena"; //зміна значення поля
     console.log(objlet); 
     objlet = {name: "Bol"}; //створення нового об'єкта
+    
     console.log(objconst);
+
     console.log(objlet);
 }
 
