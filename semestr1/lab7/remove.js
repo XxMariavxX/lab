@@ -14,5 +14,4 @@ console.log(array);
 array = ["Kiev", "Beijing", "Lima", "Saratov"];
 removeElement(array, "Lima"); // remove 'Lima' from array
 removeElement(array, "Berlin"); //  -1
-console.log(array);
-// Result: ['Kiev', 'Beijing', 'Saratov']
+console.log(array); // Result: ['Kiev', 'Beijing', 'Saratov']

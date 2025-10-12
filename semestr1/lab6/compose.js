@@ -23,8 +23,8 @@ const cube = (x) => x ** 3;
 //Examples realisation
 const f1 = pipe(inc, twice, cube); //
 const f2 = pipe(inc, inc); //
-//const f3 = pipe(inc, 7, cube); // const with typeof != "function"
+const f3 = pipe(inc, 7, cube); // const with typeof != "function"
 
 console.log(f1(5)); //251
 console.log(f2(7)); //9
-//console.log(f3()); //error
+console.log(f3()); //
