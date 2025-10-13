@@ -8,7 +8,9 @@ const contract = (fn, ...types) => {
             throw new TypeError("TypeError");
         }
         args.forEach((elem, index) => {
-            if (elem.constructor !== types[index]) {
+            const expected = types[index];
+            const actual= Object.prototype.toString.call(elem).slice(8, -1);
+            if ( !== types[index]) {
                 throw new TypeError(`Аргумент ${index + 1} має невірний тип. Очікувався ${type[index].name}`);
             }
         });
