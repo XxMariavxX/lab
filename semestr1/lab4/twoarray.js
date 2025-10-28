@@ -17,7 +17,7 @@ console.log("Завдання 2");
 
 const max = (...args) => {
   let maxNumb = -Infinity;
-  for (let i of args.flat(Infinity)) { //
+  for (let i of args.flat(Infinity)) {
     maxNumb = i > maxNumb ? i : maxNumb;
   }
   return maxNumb;
@@ -30,8 +30,8 @@ const max = (...args) => {
 // ]);
 
 const m = max([
-  [-1, -2, [1, 4], - 4],
-  [-4, -8, [7, [34, 7], 9], - 6],
+  [-1, -2, [1, 4], -4],
+  [-4, -8, [7, [34, 7], 9], -6],
   [-7, -8, -9],
 ]);
 

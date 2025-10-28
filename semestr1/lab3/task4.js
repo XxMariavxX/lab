@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 console.log("Завдання 4");
 
@@ -15,22 +15,22 @@ console.log("Завдання 4");
 // console.log(separate(iface));
 
 const iface = {
-  m1: x => [x],
+  m1: (x) => [x],
   m2: function (x, y) {
     return [x, y];
   },
-  m3 (x, y, z) {
+  m3(x, y, z) {
     return [x, y, z];
   },
-}
+};
 
-const count = obj =>{
-  const arr =[];
-  for (const key in iface){
-    if (typeof obj[key] == 'function'){
+const count = (obj) => {
+  const arr = [];
+  for (const key in iface) {
+    if (typeof obj[key] == "function") {
       arr.push([key, obj[key].length]);
     }
   }
   return arr;
-}
+};
 console.log(count(iface));
