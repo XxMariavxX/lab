@@ -23,32 +23,6 @@ const contract = (fn, ...types) => {
   };
 };
 
-// const contract = (fn, ...types) => {
-//   return (...args) => {
-//      try{
-//            if (args.length !== types.length - 1) {
-//       throw new TypeError("TypeError");
-//     }
-//     for (let i = 0; i < args.length; i++) { 
-//       const expectedType = types[i].name.toLowerCase();
-//       if (typeof args[i] !== expectedType) {
-//         throw new TypeError("TypeError");
-//       }
-//     }
-//     const result = fn(...args);
-//     const expectResultType = types[types.length - 1].name.toLowerCase();
-//     if (expectResultType !== typeof result) {
-//       throw new TypeError("TypeError");
-//     }
-//     return result;      
-//      }
-//      catch(e) {
-//           console.log("TypeError");
-//           return null;
-//      }
-//   };
-// };
-
 try{
 let add = (a, b) => a + b;
 let addNumbers = contract(add, Number, Number, Number);
